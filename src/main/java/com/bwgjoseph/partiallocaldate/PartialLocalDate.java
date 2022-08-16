@@ -435,11 +435,11 @@ public class PartialLocalDate {
     }
 
     public String toString() {
-        return String.format("Date is " + YEAR_MONTH_DAY_FORMAT + ", classify as %s",
+        return String.format(YEAR_MONTH_DAY_FORMAT,
             this.getYearValue(),
             this.getMonthValue(),
-            this.getDayValue(),
-            this.getClassifier()
+            this.getDayValue()
         );
     }
+
 }

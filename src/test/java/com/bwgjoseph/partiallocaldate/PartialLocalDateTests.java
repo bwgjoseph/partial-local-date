@@ -92,7 +92,7 @@ class PartialLocalDateTests {
 
         Assertions.assertThat(partialLocalDate.getYearValue()).isEqualTo(2022);
         Assertions.assertThat(partialLocalDate.getMonthValue()).isEqualTo(8);
-        Assertions.assertThat(partialLocalDate.getDayValue()).isEqualTo(04);
+        Assertions.assertThat(partialLocalDate.getDayValue()).isEqualTo(17);
         Assertions.assertThat(partialLocalDate.getClassifier()).isEqualTo(PartialLocalDate.Classifier.LOCAL_DATE);
         Assertions.assertThat(partialLocalDate.isValidLocalDate()).isTrue();
     }
